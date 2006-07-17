@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.54.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ed0189bd679d3739ef9f01b6a4d59f98a0cfef36 Changes
+SHA1 40d1ebae7cdb431253e1241b0155b5ca3e7e40e7 MANIFEST
+SHA1 9f5b8c49fe0d13b292732d8b99438166c55e2b48 META.yml
+SHA1 1a54f68d0117308f14369bc50a72cf299e59b7f0 Makefile.PL
+SHA1 6c2832022777c0f01ff4eba8de3699de92f27bef README
+SHA1 017bedfcba1e0c72b36301e6ef21b8712b84d175 inc/Module/Install.pm
+SHA1 b1a70869c098ba602151631386fc510b5bfd3511 inc/Module/Install/Base.pm
+SHA1 dd7313db23119d49ae78593bfa576554fb5b0fd8 inc/Module/Install/Can.pm
+SHA1 7c3a5153a5574556d895f23e121a41e680da11c1 inc/Module/Install/Fetch.pm
+SHA1 2e9c012e58c778a4a83c5eaea20c3aed306ad0c5 inc/Module/Install/Include.pm
+SHA1 176d68fe7c07b6ab7cfe09093078b8127bbde786 inc/Module/Install/Makefile.pm
+SHA1 8b37b38215d14f922b3d5132ce33d11d21d531ba inc/Module/Install/Metadata.pm
+SHA1 7eb44b00058c44795038d7fa4c0c77470f20a7f8 inc/Module/Install/Win32.pm
+SHA1 6d05967a5e1680b5f118315aaa6b8a1e143d79d8 inc/Module/Install/WriteAll.pm
+SHA1 f0ebc594cf8ba858ee9a840c344d9b7ea2c3c6f4 inc/Test/Builder.pm
+SHA1 a9037004a2c3096d77169a16da95743eeb813539 inc/Test/Builder/Module.pm
+SHA1 07c750f370de7a44ee7b0ed9ec30a7e89c24c9b9 inc/Test/More.pm
+SHA1 e3ccbc21f5ea44e5e64f3d3d19a8850804d5c012 inc/ok.pm
+SHA1 5cab038d8566534b5faeb02a7ae020aee3d4e20b lib/Object/Declare.pm
+SHA1 67d2487845ddaa207c6fd0b8eb0e69d4b54326b0 t/01-basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (Darwin)
+
+iD8DBQFEvBxvtLPdNzw1AaARAthiAJ4zpTGkdUADnJ6XEh08M634LvyMpACeMYeA
+AARHYUHkLPVJWIECSjoGJ/s=
+=JB7D
+-----END PGP SIGNATURE-----

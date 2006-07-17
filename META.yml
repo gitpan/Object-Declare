@@ -1,0 +1,14 @@
+abstract: Declare object constructor
+author: Audrey Tang <cpan@audreyt.org>
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: MIT
+name: Object-Declare
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  Sub::Override: 0
+  perl: 5.6.0
+version: 0.01
