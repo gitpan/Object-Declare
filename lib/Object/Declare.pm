@@ -1,5 +1,5 @@
 package Object::Declare;
-$Object::Declare::VERSION = '0.01';
+$Object::Declare::VERSION = '0.02';
 
 use 5.006;
 use strict;
@@ -109,19 +109,22 @@ __END__
 
 =head1 NAME
 
-Object::Declare - Declare object constructor
+Object::Declare - Declarative object constructor
 
 =head1 SYNOPSIS
 
     use Object::Declare ['MyApp::Column', 'MyApp::Param'];
 
     my $objects = declare {
-        param 'foo' =>
-            is immutable,
-            valid_values are qw( more values );
-        column 'bar' =>
-            field1 is 'value',
-            field2 is 'some_other_value';
+
+    param foo =>
+        is immutable,
+        valid_values are qw( more values );
+
+    column bar =>
+        field1 is 'value',
+        field2 is 'some_other_value';
+
     };
 
     print $objects->{foo}; # a MyApp::Param object
@@ -130,10 +133,10 @@ Object::Declare - Declare object constructor
 =head1 DESCRIPTION
 
 This module exports one function, C<declare>, for building named
-objects with a declare syntax, similar to how L<Jifty::DBI::Schema>
+objects with a declarative syntax, similar to how L<Jifty::DBI::Schema>
 defines its columns.
 
-Using a flexible import list syntax, one can change exported helper
+Using a flexible C<import> interface, one can change exported helper
 functions names (I<declarator>), words to link labels and values together
 (I<copula>), and the table of named classes to declare (I<mapping>):
 

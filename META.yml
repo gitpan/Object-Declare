@@ -1,4 +1,4 @@
-abstract: Declare object constructor
+abstract: Declarative object constructor
 author: Audrey Tang <cpan@audreyt.org>
 distribution_type: module
 generated_by: Module::Install version 0.63
@@ -11,4 +11,4 @@ no_index:
 requires: 
   Sub::Override: 0
   perl: 5.6.0
-version: 0.01
+version: 0.02
