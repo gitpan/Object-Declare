@@ -14,9 +14,9 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 acf44ea5eae790ea140800e3cab3203b1a4cda2d Changes
+SHA1 1c2fec4d62f1193cab4c34db6308f549041e81c8 Changes
 SHA1 40d1ebae7cdb431253e1241b0155b5ca3e7e40e7 MANIFEST
-SHA1 caa15ea366908ec46f4e1cd9eff5f2cc5f72fdc3 META.yml
+SHA1 b793e013cc72be99d98299072f6c6af83ca021b8 META.yml
 SHA1 1a54f68d0117308f14369bc50a72cf299e59b7f0 Makefile.PL
 SHA1 87b77c5515a7605baab399d52e448479e129ee5b README
 SHA1 017bedfcba1e0c72b36301e6ef21b8712b84d175 inc/Module/Install.pm
@@ -32,12 +32,12 @@ SHA1 ae96dc4c051a202e5db3fa73133e6183ee4910b2 inc/Test/Builder.pm
 SHA1 a9037004a2c3096d77169a16da95743eeb813539 inc/Test/Builder/Module.pm
 SHA1 45d0149fee8d12082d0aa00fd9202f4b29126824 inc/Test/More.pm
 SHA1 e3ccbc21f5ea44e5e64f3d3d19a8850804d5c012 inc/ok.pm
-SHA1 720b559953d2754a722fc2a8e36e6afc88e51f42 lib/Object/Declare.pm
-SHA1 c17d1ce7fd8cd197cb9c57113cd6c671a7fd34b4 t/01-basic.t
+SHA1 bc0bd0cd8fe2bfd7ca657dbf76e9fdf47c5d77bb lib/Object/Declare.pm
+SHA1 c813ceb75d4b149cc5a3a67bc206f7aebd955aab t/01-basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.3 (Darwin)
 
-iD8DBQFEwFs4tLPdNzw1AaARAp7hAJ4oMEG9mlDIRIe/5cjvKKC4HIU22wCcCUhn
-g9WKYnbjsl9vrwvIq7D/5KQ=
-=sWqE
+iD8DBQFEwHDmtLPdNzw1AaARAkL8AJ9Z5o5+ULhjLJZVjyEGJ1oJzpkNNQCdGtyD
+TkqhWLg9J5KvF/zM5rztKi4=
+=g0Zc
 -----END PGP SIGNATURE-----
