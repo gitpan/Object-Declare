@@ -15,4 +15,4 @@ no_index:
 requires: 
   Sub::Override: 0
   perl: 5.6.0
-version: 0.20
+version: 0.21
